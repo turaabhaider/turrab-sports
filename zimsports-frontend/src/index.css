@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* This imports your tailwind.config.js settings into v4 */
+@config "../tailwind.config.js"; 
+
+body {
+  @apply bg-white text-slate-900;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}

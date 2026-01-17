@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+build/
+
+# Environment secrets (AWS Keys, DB Passwords)
+.env
+.env.local
+
+# System files
+.DS_Store
+Thumbs.db
